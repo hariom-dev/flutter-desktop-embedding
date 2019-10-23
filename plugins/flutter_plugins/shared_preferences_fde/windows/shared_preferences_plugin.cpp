@@ -11,13 +11,15 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+#include <windows.h>
+
 #include "shared_preferences_plugin.h"
 
 #include <VersionHelpers.h>
 #include <flutter/method_channel.h>
 #include <flutter/plugin_registrar.h>
 #include <flutter/standard_method_codec.h>
-#include <windows.h>
+
 
 #include <memory>
 #include <sstream>
